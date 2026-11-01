@@ -5,14 +5,14 @@ Official standalone Windows maintenance tool for ESP32-S3 ATS Mini radios with *
 - Product and Diamond-specific modifications: **M Khanfar**
 - Distribution: **freeware**; Diamond-specific source code is not distributed
 - Official website: **[diamondradio.web.app/atsmini.html](https://diamondradio.web.app/atsmini.html)**
-- Current offline-tool release: **v1.0.0**
-- Bundled boot manager: **Diamond Dual Boot v1.9**
+- Current offline-tool release: **v1.1.0**
+- Bundled boot manager: **Diamond Dual Boot v2.0**
 
 This repository contains release information, binary downloads, checksums, and legal notices only. It is not a source-code repository.
 
 ## Download
 
-Open **[Releases](https://github.com/khanfar/diamond-radio-ats-mini-offline-tool/releases/latest)** and download `DiamondRadio-MiniTool-v1.0.0-Windows.zip`. Extract the whole ZIP, then run `DiamondRadio-MiniTool.exe`. No Python installation, account, or internet connection is required for maintenance operations.
+Open **[Releases](https://github.com/khanfar/diamond-radio-ats-mini-offline-tool/releases/latest)** and download `DiamondRadio-MiniTool-v1.1.0-Windows.zip`. Extract the whole ZIP, then run `DiamondRadio-MiniTool.exe`. No Python installation, account, or internet connection is required for maintenance operations.
 
 The standalone EXE, both full Dual Boot images, and `SHA256SUMS` are also available as separate release assets. Verify downloads against the published SHA-256 checksums.
 
@@ -20,7 +20,7 @@ The standalone EXE, both full Dual Boot images, and `SHA256SUMS` are also availa
 
 - Detect the ESP32-S3, COM port, and actual 8 MB or 16 MB flash capacity.
 - Back up and restore the complete flash.
-- Install the bundled Diamond Dual Boot v1.9 or a manually selected full Dual Boot image.
+- Install the bundled Diamond Dual Boot v2.0 or a manually selected full Dual Boot image.
 - Install firmware directly into Slot A or Slot B.
 - Extract the active OTA application from a full backup, with an optional manual A/B source selector.
 - Carry compatible settings and files when installing an application from a full backup.
@@ -35,7 +35,9 @@ When installing an application **from a full backup into one slot**, the tool se
 
 You can rewrite an occupied slot directly without erasing it first. Only use **Erase Slot** when you deliberately want an empty slot or need to clear a corrupted installation.
 
-**OTA warning:** an in-firmware OTA update writes to the **other** slot and switches to it. Updating from Slot A replaces Slot B, and updating from Slot B replaces Slot A. Make a full backup first. To replace only one chosen slot while preserving the other, use this tool's slot-install function instead of the firmware's OTA updater.
+**Slot-preserving OTA:** Dual Boot v2.0 adds an **OTA UPDATE** menu for Diamond Radio and **PUBLIC ATS MINI - SAFE OTA**. Choose the destination slot; the manager shows the release version, downloads and verifies the official release, and checks that the other slot stayed unchanged. Diamond Radio v1.0.2 and newer uses this same path from its Settings update screen. **SETTINGS → WIFI SETUP** scans networks and saves a manager-owned connection, so OTA also works into empty slots after a clean install. Typed password characters are visible for correction, saved passwords are not displayed, and the manager shows the connected IP address and a green main-screen status indicator. Receiver-saved credentials can be reused too.
+
+**PUBLIC ATS MINI internal OTA warning:** do not use the OTA button inside PUBLIC ATS MINI when you want to keep the firmware in the other slot. Its built-in updater writes the **other** slot and will overwrite Diamond Radio if Diamond is installed there. Dual Boot cannot intercept that write. Always update PUBLIC ATS MINI through the manager's **SAFE OTA** path, selecting the same slot where PUBLIC ATS MINI currently runs. Older manager and Diamond versions do not have this protection. Make a full backup first.
 
 ## Safety
 

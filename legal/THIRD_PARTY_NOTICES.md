@@ -1,7 +1,7 @@
 # Diamond Radio ATS Mini Offline Tool — third-party notices
 
 This release contains the Diamond Radio ATS Mini Offline Tool and Diamond Dual
-Boot v1.9 images. It does not contain receiver firmware, receiver decoders, or
+Boot v2.0 images. It does not contain receiver firmware, receiver decoders, or
 the GNBD/miniradio receiver application. Diamond-specific application source is
 private and the Windows application is distributed as freeware; see
 `DIAMOND_FREEWARE_NOTICE.txt`.
@@ -11,7 +11,7 @@ Diamond receiver project. It is retained for attribution continuity when users
 maintain those receiver installations; it does not claim that this maintenance
 tool contains receiver code or replace any Diamond or third-party terms.
 
-## Diamond Dual Boot v1.9
+## Diamond Dual Boot v2.0
 
 - DiamondMiniBoot, its partition layout and its ESP-IDF bootloader patch:
   Copyright (c) 2026 Diamond Radio (MKhanfar), MIT License. Full text:
