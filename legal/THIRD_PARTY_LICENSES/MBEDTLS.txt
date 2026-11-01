@@ -1,0 +1,8 @@
+MbedTLS licensing selection
+
+The MbedTLS distribution supplied with ESP-IDF offers a choice of Apache-2.0
+or GPL-2.0-or-later. Diamond Radio ATS Mini uses MbedTLS under the Apache-2.0
+alternative only. The GPL alternative is not selected.
+
+The complete Apache License 2.0 text is provided in APACHE-2.0.txt.
+MbedTLS and its contributors retain their copyrights and other notices.

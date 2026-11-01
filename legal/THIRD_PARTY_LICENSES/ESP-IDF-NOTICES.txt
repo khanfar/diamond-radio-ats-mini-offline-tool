@@ -1,0 +1,27 @@
+ESP-IDF 5.5.5 and linked framework components
+
+Original ESP-IDF code:
+Copyright (c) Espressif Systems (Shanghai) Co., Ltd. and contributors.
+Licensed under Apache License 2.0; see APACHE-2.0.txt.
+
+Espressif wireless binary libraries retain the Espressif copyright and are
+supplied under the license in the ESP-IDF distribution; its full Apache-2.0
+text is included in APACHE-2.0.txt.
+
+Additional linked component notices are included in this directory:
+- FreeRTOS kernel: FREERTOS.txt
+- lwIP: LWIP.txt
+- wpa_supplicant: WPA_SUPPLICANT.txt (BSD option)
+- MbedTLS: MBEDTLS.txt and APACHE-2.0.txt (Apache option)
+- newlib: NEWLIB.txt
+- FatFs: FATFS.txt
+- SPIFFS: SPIFFS.txt
+- protobuf-c: PROTOBUF-C.txt
+- cJSON: CJSON.txt
+- http_parser: HTTP_PARSER.txt
+- linenoise: LINENOISE.txt
+- argtable3: ARGTABLE3.txt
+
+Other ESP-IDF component source headers retain their respective Apache, MIT,
+BSD, or other permissive copyright notices. No component is relicensed by
+this summary. The authoritative notices are those shipped with ESP-IDF 5.5.5.

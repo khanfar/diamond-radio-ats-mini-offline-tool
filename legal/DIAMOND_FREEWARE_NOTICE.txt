@@ -1,0 +1,18 @@
+Diamond Radio ATS Mini
+Diamond-specific additions, visual identity, and product branding
+Copyright (c) 2026 M Khanfar
+
+Diamond Radio ATS Mini is distributed as freeware. Permission is granted to use
+and redistribute unmodified binary releases free of charge. No source-code
+license is granted for Diamond-specific modifications. Do not publish or
+distribute this private source tree.
+
+This notice applies only to Diamond-specific modifications and branding. It
+does not replace, remove, or restrict the rights granted by the upstream MIT
+license or any third-party license. The original copyright and permission
+notices in LICENSE, THIRD_PARTY_NOTICES.md, and THIRD_PARTY_LICENSES remain
+part of the binary release materials.
+
+Diamond Radio names, logos, and visual identity are not licensed for use as
+branding for derivative products. The software is provided without warranty
+to the extent permitted by applicable law.
