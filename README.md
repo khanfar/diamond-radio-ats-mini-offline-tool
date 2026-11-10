@@ -53,6 +53,12 @@ Receiver control, FT8, and maps are not part of this maintenance release. Diamon
 - [Diamond Radio ATS-25 Offline Tool](https://github.com/khanfar/diamond-radio-ats25-offline-tool) — ATS-25 firmware installation, backup, restore, maintenance, and offline EiBi Manager.
 - [Diamond Radio ATS-25 USB PC Control](https://github.com/khanfar/diamond-radio-ats25-pc-control) — offline receiver control, decodes, favorites, and FT8 map.
 
+## Community
+
+- Telegram: https://t.me/+aftBqV_qRMlkZDVi
+- Facebook: https://www.facebook.com/share/g/1EpCchUdzj/
+- YouTube: https://www.youtube.com/@DiamondRadioOfficial
+
 ## Legal and third-party notices
 
 See [`legal/THIRD_PARTY_NOTICES.md`](legal/THIRD_PARTY_NOTICES.md), [`legal/DIAMOND_FREEWARE_NOTICE.txt`](legal/DIAMOND_FREEWARE_NOTICE.txt), and the accompanying license texts. Diamond Dual Boot is MIT-licensed; the offline application is freeware with private Diamond-specific source. The separate espflash backend and other third-party components retain their own licenses. No upstream copyright or permission notice is removed or replaced.
